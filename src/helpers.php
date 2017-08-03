@@ -17,6 +17,6 @@ if (!function_exists('clear_fromat')) {
      * @return mixed|string
      */
     function clear_fromat($string, array $search = []) {
-        return (new \Sam\ClearFormat())->input($string, $search);
+        return (new \SamFajar\ClearFormat())->input($string, $search);
     }
 }

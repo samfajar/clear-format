@@ -25,9 +25,4 @@ class ClearFormat
         }
         return $string;
     }
-
-    public function all()
-    {
-
-    }
 }

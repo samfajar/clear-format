@@ -16,7 +16,8 @@ trait Clearable {
     public function __construct()
     {
         parent::__construct();
-        $this->transform(request()->all());
+        $clearedInput = $this->transform(request()->all());
+        request()->merge($clearedInput);
     }
 
     /**
@@ -29,16 +30,5 @@ trait Clearable {
     public function transform(array $data)
     {
         return $data;
-    }
-
-    /**
-     * @param $name
-     * @param $parameters
-     */
-    function __call($name , $parameters)
-    {
-        if ($name == 'transform') {
-            request()->merge($parameters['data']);
-        }
     }
 }
