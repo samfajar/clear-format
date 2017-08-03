@@ -1,5 +1,5 @@
 {
-    "name": "sam/clear-formating",
+    "name": "samfajar/clear-formating",
     "description": "Simple clear masked input field for laravel",
     "type": "library",
     "license": "MIT",
@@ -9,13 +9,13 @@
             "email": "samfajar1206@gmail.com"
         }
     ],
-    "minimum-stability": "1.0.0",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.0"
     },
     "autoload": {
         "psr-4": {
-            "Sam\\": "src/"
+            "SamFajar\\": "src/"
         },
         "files" : [
             "src/helpers.php"

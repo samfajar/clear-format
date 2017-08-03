@@ -1,6 +1,6 @@
 <?php
 
-namespace Sam;
+namespace SamFajar;
 
 /**
  * Created by PhpStorm.

@@ -1,4 +1,7 @@
 <?php
+
+namespace SamFajar;
+
 /**
  * Created by PhpStorm.
  * User: sam
